@@ -1,0 +1,131 @@
+body,body li {
+    margin: 0;
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;    
+    list-style: none;
+}
+.header h1 {
+    width: 100%;
+    background-color: #333333;
+    text-align: left;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 35px;
+    color: #fdfdfd;
+}
+
+.sub-header {
+    vertical-align: sub;
+    font-size: 2em;
+    color: #cc7530;
+}
+
+.navigation {   
+    background-color: #676767
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+}
+
+.navigation li {
+    line-height: 30px;
+    text-align: center;
+    border-right-style: solid;
+    border-right-color: #333333;
+    border-width: 1px;
+    width: 75px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+.navigation a:hover {
+    color: #44e91b;
+}
+
+main {
+    width: auto;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.section-list {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: #fdfdfd;
+    top: auto;
+}
+
+.image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.list li {
+    margin-top: 20px;    
+    width: 90%;    
+    border-bottom: 2px solid #dddddd;
+    display: table;
+    
+}
+.list li div{
+    display: table-cell;
+    vertical-align: top;
+}
+.list li a{
+    padding-top: 30px;
+    text-decoration: none;
+    color: #cc7530;
+}
+
+.list h2 {
+    margin-top: 0px;
+}
+
+.sidebar {
+    position: absolute;
+    right: 0px;
+    top: auto;
+    height: 100%;
+    padding-top: 5px;
+    background-color: #dddddd;
+    min-width: 200px;
+    width: 20%;    
+}
+.sidebar-link h3{
+    border-bottom: 2px solid #dddddd;    
+}
+.sidebar-link a{
+    text-decoration: none;
+    color: #cc7530;
+}
+.sidebar-link a:hover {
+    color: #ad3f83;
+}
+.sidebar-link ul{
+ padding-left: 10px; 
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: #333333;
+    width: 100%;
+    color: #fdfdfd;
+}
+footer a {
+    text-decoration: none;
+    color: #cc7530;
+}
+
+
